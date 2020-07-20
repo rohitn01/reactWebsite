@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/reactWebsite/static/css/main.1da9cf50.chunk.css",
+    "main.js": "/reactWebsite/static/js/main.6d4f7519.chunk.js",
+    "main.js.map": "/reactWebsite/static/js/main.6d4f7519.chunk.js.map",
+    "runtime-main.js": "/reactWebsite/static/js/runtime-main.9cef96fa.js",
+    "runtime-main.js.map": "/reactWebsite/static/js/runtime-main.9cef96fa.js.map",
+    "static/js/2.9164724d.chunk.js": "/reactWebsite/static/js/2.9164724d.chunk.js",
+    "static/js/2.9164724d.chunk.js.map": "/reactWebsite/static/js/2.9164724d.chunk.js.map",
+    "index.html": "/reactWebsite/index.html",
+    "precache-manifest.3fd40b5e3b523ecb4a20d7ff09649052.js": "/reactWebsite/precache-manifest.3fd40b5e3b523ecb4a20d7ff09649052.js",
+    "service-worker.js": "/reactWebsite/service-worker.js",
+    "static/css/main.1da9cf50.chunk.css.map": "/reactWebsite/static/css/main.1da9cf50.chunk.css.map",
+    "static/js/2.9164724d.chunk.js.LICENSE.txt": "/reactWebsite/static/js/2.9164724d.chunk.js.LICENSE.txt",
+    "static/media/AWS-SolArchitect-Associate.png": "/reactWebsite/static/media/AWS-SolArchitect-Associate.c041404a.png",
+    "static/media/UofI.png": "/reactWebsite/static/media/UofI.b61617be.png",
+    "static/media/awslogo.png": "/reactWebsite/static/media/awslogo.47004c68.png",
+    "static/media/Home.css": "/reactWebsite/static/media/bridge.891e7532.gif",
+    "static/media/c++.png": "/reactWebsite/static/media/c++.4fce8d00.png",
+    "static/media/c.png": "/reactWebsite/static/media/c.df7e79f2.png",
+    "static/media/ctaasa.png": "/reactWebsite/static/media/ctaasa.bd85f4a2.png",
+    "static/media/eagle.png": "/reactWebsite/static/media/eagle.f0a8104c.png",
+    "static/media/emailicon.png": "/reactWebsite/static/media/emailicon.2c9fd586.png",
+    "static/media/estar.png": "/reactWebsite/static/media/estar.e409adfe.png",
+    "static/media/github-logo.png": "/reactWebsite/static/media/github-logo.bafee7d2.png",
+    "static/media/java.png": "/reactWebsite/static/media/java.1c28331e.png",
+    "static/media/linkedin.png": "/reactWebsite/static/media/linkedin.7ccb7a06.png",
+    "static/media/northern.png": "/reactWebsite/static/media/northern.27e717ef.png",
+    "static/media/promheadshot.png": "/reactWebsite/static/media/promheadshot.978a2b1b.png",
+    "static/media/python.png": "/reactWebsite/static/media/python.adafad49.png",
+    "static/media/react.png": "/reactWebsite/static/media/react.4603f0d1.png",
+    "static/media/starRate.png": "/reactWebsite/static/media/starRate.3aa0d723.png",
+    "static/media/zoop.HEIC": "/reactWebsite/static/media/zoop.c5eca617.HEIC"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9cef96fa.js",
+    "static/js/2.9164724d.chunk.js",
+    "static/css/main.1da9cf50.chunk.css",
+    "static/js/main.6d4f7519.chunk.js"
+  ]
+}
