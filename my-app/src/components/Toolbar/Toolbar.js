@@ -11,7 +11,7 @@ const Toolbar = props => (
                 <DrawerToggleButton click={props.drawerClickHandler}/>
             </div>
             <div className="toolbar_logo">
-                <NavLink to="/"><img src={zoop} style={{width: '75px'}}/></NavLink>
+                <NavLink to="/reactWebsite"><img src={zoop} style={{width: '75px'}}/></NavLink>
             </div>
             <div className="spacer" />
             <div className="toolbar_navigation-items">

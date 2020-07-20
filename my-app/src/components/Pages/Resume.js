@@ -1,5 +1,5 @@
 import React from 'react';
-import { Document } from 'react-pdf';
+
 import "./Pages.css";
 import "./Resume.css";
 

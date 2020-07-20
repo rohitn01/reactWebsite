@@ -76,5 +76,10 @@
   }
   .aboutMeBody li {
     margin-right: 0px;
+    opacity: 1;
   }
+  .aboutMeBody ul {
+    opacity: 1;
+  }
+
 }
