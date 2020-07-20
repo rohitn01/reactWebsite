@@ -1,0 +1,37 @@
+.icons {
+    display: list-item;
+    animation: headerTrans 3s ease;
+    text-align: center;
+    animation: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.icons img {
+    transform: scale(1,1);
+    transition: transform 0.3s ease-in;
+}
+
+.icons img:hover,
+.icons img:active {
+    transform: scale(1.05,1.05);
+    transition: transform 0.4s ease-out;
+
+}
+.caption {
+    color:white;
+    transform: translateY(20px);
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+.profile {
+    color:white;
+    transform: translateY(-31px);
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+      65%  { transform: translate(0, 5px); }
+      to   { transform: translate(0, -0px); }    
+}

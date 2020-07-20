@@ -1,0 +1,21 @@
+.errorheader {
+    
+    animation-name: headerColor;
+    animation-duration: 3s;
+    color: red;
+    opacity: 1;
+    font-size: 7rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+.errorText {
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+@keyframes headerColor {
+    from {color: white; opacity: 0.3;}
+    to {color: red; opacity: 1;}
+}

@@ -1,0 +1,59 @@
+.background {
+    position: relative;
+    margin-top: 80px;
+    height: 90vh;
+    width: 100%;   
+    background-color: #243447;
+}
+.body {
+    animation: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.header {
+    animation: headerTrans 3s;
+    color:white;
+    font-size: 4.5rem;
+    transform: translateY(60%);
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+}
+.subheader{
+    animation: headerTrans 5.5s;
+    color:white;
+    transform: translateY(70%);
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    animation: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.text1 {
+    animation: headerTrans 6s;
+    color:white;
+    transform: translateY(-150%);
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    animation: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+@media (max-width: 768px) {
+    .header {
+        transform: translateY(35%);
+    }
+}
+@keyframes headerTrans {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+      65%  { transform: translate(0, 5px); }
+      to   { transform: translate(0, -0px); }    
+}

@@ -1,0 +1,55 @@
+
+.homeBackground {
+    position: relative;
+    transform: translateY(-4.5%);
+    height: 100%;
+    width: 100%;
+    background-image: url('bridge.gif');
+    background-size: contain;
+    position: fixed;
+}
+.headerHome {
+    animation: headerTrans 3s;
+    color:white;
+    font-size: 4.5rem;
+    transform: translateY(60%);
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    z-index: 1;
+    animation: headerfloating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  
+}
+.subheaderHome{
+    animation: headerTrans 5.5s;
+    color:white;
+    transform: translateY(150%);
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    z-index: 2;
+    animation: homefloating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+.text1 {
+    animation: headerTrans 8s;
+    color:white;
+    transform: translateY(-150%);
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+@keyframes homefloating {
+    from { transform: translate(0,  150%); }
+      65%  { transform: translate(0, 163%); }
+      to   { transform: translate(0, 150%); }  
+}
+@keyframes headerfloating {
+    from { transform: translate(0,  60%); }
+      65%  { transform: translate(0, 73%); }
+      to   { transform: translate(0, 60%); }  
+}
+
