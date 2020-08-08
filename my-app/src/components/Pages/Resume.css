@@ -8,6 +8,13 @@
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
+.mobileResume {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 600px;
+}
 .resumeLink {
   color:white;
   font-family: 'Lato', sans-serif;
@@ -72,14 +79,12 @@
 }
 @media (max-width: 768px) {
   .aboutMeBody {
-    text-align: start;
-  }
-  .aboutMeBody li {
-    margin-right: 0px;
-    opacity: 1;
-  }
-  .aboutMeBody ul {
-    opacity: 1;
+    display: none;
   }
 
+}
+@media (min-width: 769px) {
+  .mobileResume {
+    display: none;
+  }
 }

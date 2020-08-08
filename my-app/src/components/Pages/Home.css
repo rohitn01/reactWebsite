@@ -15,10 +15,7 @@
     font-family: 'Karla', sans-serif;
     text-align: center;
     z-index: 1;
-    animation: headerfloating;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    
     padding-bottom: 2cm;
 }
 .subheaderHome{
@@ -51,4 +48,12 @@
       65%  { transform: translate(0, 73%); }
       to   { transform: translate(0, 60%); }  
 }
-
+@media (min-width: 769px) {
+    .headerHome {
+    transform: translateY(55%);
+    animation-name: headerfloating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    }
+}
