@@ -1,5 +1,5 @@
 import React from 'react';
-import zoop from './zoop.HEIC';
+import zoop from './promheadshot.png';
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 import './Toolbar.css';
 import { NavLink, Router } from 'react-router-dom';
