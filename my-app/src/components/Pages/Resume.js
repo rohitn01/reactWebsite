@@ -31,9 +31,6 @@ const aboutme = () => {
             <h2><img src={prom} className="prom-pic"/></h2>
             <br></br>
             <h2 className="subheader">Rohit Narayanan</h2>
-            <p className="text1">Scroll down and hover to view my resume or 
-            click <a className="resumeLink" href="https://drive.google.com/file/d/1PiUGXksFNeVbCqNuMBQdK_BR9vPqnj3G/view?usp=sharing" download>HERE</a> for a PDF copy.</p>
-            <h2><img className="mobileResume" src={resume} align="center" style={{width: '450px'}}></img></h2>
             <body className="aboutMeBody">
                
               <ul> <h3>Education:</h3>
